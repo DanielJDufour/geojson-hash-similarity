@@ -1,0 +1,32 @@
+{
+  "name": "geojson-hash-similarity",
+  "version": "0.0.0",
+  "description": "Calculate the Jaccard Index of Hashes of GeoJSON Polygons",
+  "main": "index.js",
+  "browser": "geojson-hash-similarity.js",
+  "unpkg": "geojson-hash-similarity.js",
+  "jsdelivr": "geojson-hash-similarity.js",
+  "files": [
+    "index.js",
+    "geojson-hash-similarity.js"
+  ],
+  "scripts": {
+    "build": "browserify index.js > geojson-hash-similarity.js",
+    "setup": "cd test-data && ./setup.sh",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "jaccard",
+    "geojson",
+    "hash"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "geojson-hash": "^0.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.1",
+    "flug": "^2.8.2"
+  }
+}
