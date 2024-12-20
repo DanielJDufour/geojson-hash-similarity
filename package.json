@@ -1,6 +1,6 @@
 {
   "name": "geojson-hash-similarity",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Calculate the Jaccard Index of Hashes of GeoJSON Polygons",
   "main": "./index.js",
   "browser": "./geojson-hash-similarity.js",
