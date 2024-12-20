@@ -2,7 +2,7 @@
   "name": "geojson-hash-similarity",
   "version": "0.0.0",
   "description": "Calculate the Jaccard Index of Hashes of GeoJSON Polygons",
-  "main": "index.js",
+  "main": "./index.js",
   "browser": "geojson-hash-similarity.js",
   "unpkg": "geojson-hash-similarity.js",
   "jsdelivr": "geojson-hash-similarity.js",
